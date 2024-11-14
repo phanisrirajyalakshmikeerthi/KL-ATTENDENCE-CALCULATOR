@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling with Background Image */
+body {
+    background: url('Background img.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+    font-size: 24px;
+    color: #d32f2f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.attendance-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    color: #d32f2f;
+    margin-top: 15px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+}
+
+.calculate-btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.calculate-btn:hover {
+    background-color: #c62828;
+}
+
+/* Result Display */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
